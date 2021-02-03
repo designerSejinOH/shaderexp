@@ -7,7 +7,7 @@ var wid = 400;
 var hei = 300;
 
 function preload() {
-  program = loadShader('shader/vertex.vert', 'shader/fragment.frag');
+  program = loadShader('vertex.vert', 'fragment.frag');
 }
 
 function setup() {
